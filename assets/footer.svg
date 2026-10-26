@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="">
+  <defs><style>
+    .w1 { animation: drift 9s ease-in-out infinite alternate; }
+    .w2 { animation: drift 13s ease-in-out infinite alternate-reverse; }
+    @keyframes drift { to { transform: translateX(-120px); } }
+  </style></defs>
+  <path class="w1" d="M0 60 C 200 20, 400 100, 600 60 S 1000 20, 1200 60 S 1400 100, 1400 60 V120 H0 Z" fill="#d9b44a" opacity=".25"/>
+  <path class="w2" d="M0 80 C 200 50, 400 120, 600 80 S 1000 50, 1200 80 S 1400 110, 1400 80 V120 H0 Z" fill="#6e5410" opacity=".55"/>
+</svg>

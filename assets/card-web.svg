@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 210" width="380" height="210" role="img" aria-label="Websites">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1810"/><stop offset="1" stop-color="#0d0d0f"/></linearGradient>
+    <style>
+      .t { font: 700 24px 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #f4f1ea; }
+      .d { font: 400 16px 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #c9c3b5; }
+      .p { font: 700 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #0d0d0f; }
+      .run { stroke-dasharray: 120 1080; animation: run 6s linear 0.1s infinite; }
+      @keyframes run { to { stroke-dashoffset: -1200; } }
+    </style>
+  </defs>
+  <g>
+    <rect x="1" y="1" width="378" height="208" rx="18" fill="url(#g)"/>
+    <rect x="1" y="1" width="378" height="208" rx="18" fill="none" stroke="#6e5410" stroke-width="1.2"/>
+    <g fill="none" stroke="#d9b44a" stroke-width="2.2"><circle cx="46" cy="50" r="18"/><ellipse cx="46" cy="50" rx="8" ry="18"/><path d="M28 50h36M31 41h30M31 59h30"/></g>
+    <text x="28" y="108" class="t">Websites</text>
+    <text x="28" y="140" class="d">Landing pages, business sites</text>
+    <text x="28" y="164" class="d">and stores, live and fast.</text>
+    <rect x="248" y="34" width="106" height="30" rx="15" fill="#d9b44a"/>
+    <text x="301" y="54" class="p" text-anchor="middle">from $80</text>
+  </g>
+  <rect x="1" y="1" width="378" height="208" rx="18" fill="none" stroke="#d9b44a" stroke-width="2" class="run"/>
+</svg>

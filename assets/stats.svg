@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="Key numbers">
+  <defs><style>
+    .n { font: 800 40px 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #f2dfa0; }
+    .l { font: 400 16px 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #c9c3b5; }
+    .run { stroke-dasharray: 140 2600; animation: run 7s linear infinite; }
+      @keyframes run { to { stroke-dashoffset: -2740; } }
+  </style></defs>
+  <rect width="1200" height="140" rx="20" fill="#0d0d0f"/>
+  <rect x=".5" y=".5" width="1199" height="139" rx="19.5" fill="none" stroke="#6e5410"/>
+  <rect x="1" y="1" width="1198" height="138" rx="19" fill="none" stroke="#d9b44a" stroke-width="2" class="run"/>
+  
+  <g>
+    <text x="40" y="70" class="n">15,410</text>
+    <text x="40" y="102" class="l">products in a store I built</text>
+  </g>
+  <g>
+    <text x="330" y="70" class="n">10</text>
+    <text x="330" y="102" class="l">AI models tested for one assistant</text>
+  </g>
+  <g>
+    <text x="620" y="70" class="n">~2 min</text>
+    <text x="620" y="102" class="l">to turn a 134 MB episode into clips</text>
+  </g>
+  <g>
+    <text x="910" y="70" class="n">9,600+</text>
+    <text x="910" y="102" class="l">automated tests across my projects</text>
+  </g>
+</svg>
