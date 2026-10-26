@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="whoami: Jhonatan González, AI-first product engineer in Colombia. Services: websites, AI assistants, video ads. Motto: Love never fails.">
+  <defs><style>
+    .cmd { font: 600 20px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #f4f1ea; }
+    .pr { fill: #d9b44a; }
+    .out { font: 400 20px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #f2dfa0; }
+    .bar { font: 600 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #c9c3b5; }
+    .caret { fill: #d9b44a; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style></defs>
+  <rect width="1200" height="360" rx="18" fill="#0d0d0f"/>
+  <rect x=".5" y=".5" width="1199" height="359" rx="17.5" fill="none" stroke="#6e5410"/>
+  <rect width="1200" height="40" rx="18" fill="#1c1810"/><rect y="22" width="1200" height="18" fill="#1c1810"/>
+  <circle cx="28" cy="20" r="6" fill="#d9b44a"/><circle cx="50" cy="20" r="6" fill="#6e5410"/><circle cx="72" cy="20" r="6" fill="#3a3020"/>
+  <text x="600" y="25" text-anchor="middle" class="bar">jegx@colombia: ~</text>
+  
+  <clipPath id="t0"><rect x="40" y="70" height="30" width="103">
+    <animate attributeName="width" values="0;0;103;103;0" keyTimes="0;0.0000;0.0688;0.95;1" dur="16.0s" begin="-14s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="40" y="92" class="cmd" clip-path="url(#t0)"><tspan class="pr">$</tspan> whoami</text>
+  <text x="40" y="120" class="out">jhonatan gonzález · AI-first product engineer · Colombia
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.0875;0.95;1" dur="16.0s" begin="-14s" calcMode="discrete" repeatCount="indefinite"/>
+  </text>
+  <clipPath id="t1"><rect x="40" y="134" height="30" width="224">
+    <animate attributeName="width" values="0;0;224;224;0" keyTimes="0;0.1875;0.2562;0.95;1" dur="16.0s" begin="-14s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="40" y="156" class="cmd" clip-path="url(#t1)"><tspan class="pr">$</tspan> cat services.txt</text>
+  <text x="40" y="184" class="out">websites · AI assistants · video ads
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2750;0.95;1" dur="16.0s" begin="-14s" calcMode="discrete" repeatCount="indefinite"/>
+  </text>
+  <clipPath id="t2"><rect x="40" y="198" height="30" width="175">
+    <animate attributeName="width" values="0;0;175;175;0" keyTimes="0;0.3750;0.4437;0.95;1" dur="16.0s" begin="-14s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="40" y="220" class="cmd" clip-path="url(#t2)"><tspan class="pr">$</tspan> ls ~/shipped</text>
+  <text x="40" y="248" class="out">recover  vital  prisma  fuente-pura  dagotrading  carnudos  ivann
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4625;0.95;1" dur="16.0s" begin="-14s" calcMode="discrete" repeatCount="indefinite"/>
+  </text>
+  <clipPath id="t3"><rect x="40" y="262" height="30" width="163">
+    <animate attributeName="width" values="0;0;163;163;0" keyTimes="0;0.5625;0.6312;0.95;1" dur="16.0s" begin="-14s" repeatCount="indefinite"/>
+  </rect></clipPath>
+  <text x="40" y="284" class="cmd" clip-path="url(#t3)"><tspan class="pr">$</tspan> echo $MOTTO</text>
+  <text x="40" y="312" class="out">Love never fails
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.6500;0.95;1" dur="16.0s" begin="-14s" calcMode="discrete" repeatCount="indefinite"/>
+  </text>
+  <rect x="40" y="330" width="12" height="22" class="caret"/>
+</svg>

@@ -27,6 +27,27 @@
 
 <p align="center"><img src="assets/stats.svg" alt="15,410 products in a store I built · 10 AI models tested for one assistant · about 2 minutes to turn a 134 MB episode into clips · 9,600+ automated tests" width="100%"></p>
 
+## See it working
+
+<table>
+  <tr>
+    <td width="55%" align="center" valign="top">
+      <img src="assets/demos/nia-chat.webp" alt="A customer asks NIA which camera to buy and NIA answers with products, prices and links" width="100%"><br>
+      <b>NIA, live</b>: a customer asks which camera to buy. NIA answers with real products, prices and links in seconds.
+    </td>
+    <td width="45%" align="center" valign="top">
+      <img src="assets/demos/video-ad.webp" alt="A 17-second vertical video ad for a demo coffee brand" width="100%"><br>
+      <b>Video ad sample</b>: 17 seconds with a script, captions and an AI voice (demo brand).
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="assets/demos/store-scroll.webp" alt="Scrolling through the Recover online store" width="100%"><br>
+      <b>Recover store</b>: categories, featured products and services, fast on any screen.
+    </td>
+  </tr>
+</table>
+
 ## Things I've built, all live today
 
 <table>
@@ -72,11 +93,29 @@
   </tr>
 </table>
 
+## My year in code
+
+<p align="center"><img src="assets/stats-live.svg" alt="Contribution stats for the last 12 months" width="100%"></p>
+
+<p align="center"><img src="profile-3d-contrib/profile-gold.svg" alt="My contributions as a 3D city" width="100%"></p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/1914Jegx/1914Jegx/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/1914Jegx/1914Jegx/output/snake-light.svg">
+    <img alt="A gold snake eating my contribution graph" src="https://raw.githubusercontent.com/1914Jegx/1914Jegx/output/snake-dark.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>These three update by themselves every night.</sub></p>
+
 ## How I work
 
 - **I measure before I decide.** For NIA I tested 10 AI models on the real project. The one I chose answered better at about US$0.002 per reply in the benchmark, while the previous model cost US$0.024 per reply in production. [Read the case study](https://github.com/1914Jegx/llm-agent-cost-benchmark).
 - **Tests decide what ships.** About 9,600 automated tests across Recover, Vital and DagoTrading, and every change goes through CI.
 - **I run what I build.** Payments, servers, backups and monitoring keep being my job after launch.
+
+<p align="center"><img src="assets/terminal.svg" alt="whoami: Jhonatan González, AI-first product engineer in Colombia. Motto: Love never fails." width="100%"></p>
 
 ## Tools I ship with
 
